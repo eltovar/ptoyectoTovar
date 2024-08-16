@@ -42,29 +42,5 @@
         </div>
     </div>
 </center>
-<script>
-     function mostrarInformacion() {
-            var info = document.getElementById('informacion');
-            if (info.classList.contains('hidden')) {
-                info.classList.remove('hidden');
-            } else {
-                info.classList.add('hidden');
-            }
-        }
-
-        var img = document.getElementById('gatoImagen');
-
-        img.addEventListener('click', function() {
-            this.classList.toggle('clicked');
-        });
-
-        img.addEventListener('mouseover', function() {
-            this.title = "¡Qué lindo gatito!";
-        });
-
-        img.addEventListener('mouseout', function() {
-            this.title = "";
-        });
-</script>
 </body>
 </html>
