@@ -1,4 +1,4 @@
-# proyectoTovar
+# ptoyectoTovar
 
 REQUERIMIENTOS
 Boton funcional de informacion
